@@ -24,7 +24,7 @@ function Home() {
             
           
             <div className="text-center mb-4">
-              <img src="src/assets/img.avif" alt="Blood Donation" className="img-fluid " style={{ maxWidth: "100%", height: "auto",marginTop:"80px" }} />
+              <img src="src/assets/img.jpeg" alt="Blood Donation" className="img-fluid " style={{ maxWidth: "100%", height: "auto",marginTop:"80px" }} />
             </div>
 
             <div >
