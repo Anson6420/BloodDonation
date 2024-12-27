@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
-    <div className='py-5 px-4 shadow-lg'>
+    <div className=' px-4 shadow-lg  '>
       <div className="container-fluid">
         <div className="row">
           <div className="col-md-4">
@@ -18,7 +18,7 @@ function Footer() {
               <h4 className='text-danger'>Links</h4>
               <Link to={'/'}><p className='mt-4'>Home Page</p></Link>
               <Link to={'/RegisteredList'}><p>RegList Page</p></Link>
-              
+              <Link to={'/DonatedList'}><p>DonatedList Page</p></Link>
             </div>
           </div>
 
