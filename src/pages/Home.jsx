@@ -1,6 +1,6 @@
 import React from 'react'
 import bloodImg from '../assets/bloodImg.jpg'
-import donBlood from '../assets/donBlood.jpg'
+
 
 function Home() {
 
@@ -34,7 +34,7 @@ function Home() {
 
             <div id='facts'>
             <h1  className='text-center text-black' style={{ marginTop: "80px" }}>Blood Donation Facts</h1>
-            <img src={donBlood} alt="" className='my-5 w-100 ' />
+         
             <p className=' px-5 fw-bold mt-4' style={{ textAlign: "justify" }}><span className='fs-5 text-primary'>Facts about blood needs</span> <br /><span className='fs-4'>.</span> Every year our nation requires about 5 Crore units of blood, out of which only a meager 2.5 Crore units of blood are available. <br /><span className='fs-4'>.</span>The gift of blood is the gift of life. There is no substitute for human blood. <br /><span className='fs-4'>.</span>Every two seconds someone needs blood.<br /><span className='fs-4'>.</span>More than 38,000 blood donations are needed every day.<br /><span className='fs-4'>.</span>A total of 30 million blood components are transfused each year.</p>
             <p className=' px-5 fw-bold mt-4' style={{ textAlign: "justify" }}><span className='fs-5 text-primary'>Facts about the blood donation process</span> <br /><span className='fs-4'>.</span>Donating blood is a safe process. A sterile needle is used only once for each donor and then discarded. <br /><span className='fs-4'>.</span>Blood donation is a simple four-step process: registration, medical history and mini-physical, donation and refreshments. <br /><span className='fs-4'>.</span>Every blood donor is given a mini-physical, checking the donor's temperature, blood pressure, pulse and hemoglobin to ensure it is safe for the donor to give blood.<br /><span className='fs-4'>.</span>The actual blood donation typically takes less than 10-12 minutes. The entire process, from the time you arrive to the time you leave, takes about an hour and 15 min.<br /><span className='fs-4'>.</span>The average adult has about 10 units of blood in his body. Roughly 1 unit is given during a donation.</p>
             <p className=' px-5 fw-bold mt-4' style={{ textAlign: "justify" }}><span className='fs-5 text-primary'>Facts about blood and its components</span> <br /><span className='fs-4'>.</span>Blood makes up about 7 percent of your body's weight. <br /><span className='fs-4'>.</span>There are four types of transfusable products that can be derived from blood: red cells, platelets, plasma and cryoprecipitate. Typically, two or three of these are produced from a unit of donated whole blood – hence each donation can help save up to three lives. <br /><span className='fs-4'>.</span>Donors can give either whole blood or specific blood components only. The process of donating specific blood components – red cells, plasma or platelets – is called apheresis.<br /><span className='fs-4'>.</span>Donated platelets must be used within five days of collection.<br /><span className='fs-4'>.</span>Healthy bone marrow makes a constant supply of red cells, plasma and platelets. The body will replenish the elements given during a blood donation – some in a matter of hours and others in a matter of weeks.</p>
